@@ -1,5 +1,5 @@
-import InputRange from "../InputRange";
-import GlobalVolume from "../GlobalVolume";
+import InputRange from "../inputRange";
+import GlobalVolume from "../globalVolume";
 import { TrackContainer, Logo, MainBodyContainer, ToggleHandlerTheme } from "./style";
 import { trackNames } from "./trackNames.js";
 import {HiArrowDown} from 'react-icons/hi'
