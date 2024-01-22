@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { AllowContainer } from "./style";
 
 function AllowSound() {
-const baseUrl = "http://127.0.0.1:8000/static/others/";
+const baseUrl = "https://sonoro-api.netlify.app/static/others/";
 
   useEffect(() => {
     setTimeout(() => {

@@ -1,7 +1,7 @@
 import { Enlace, EnlacesContainer, FooterContainer, MadeBy } from "./style";
 
 const Footer = () => {
-  const baseUrl = "http://127.0.0.1:8000/static/others/";
+  const baseUrl = "https://sonoro-api.netlify.app/static/others/";
 
   return (
     <FooterContainer>
@@ -12,7 +12,7 @@ const Footer = () => {
           seeing more projects like this one
         </p>
         <EnlacesContainer>
-          <Enlace href="https://touzand.github.io/portafolio" target="_blank">
+          <Enlace href="https://alan-ptf.netlify.app/" target="_blank">
             <img src={`${baseUrl}circle.svg`} alt="circle" />
             <p>Alan G. Alonso</p>
           </Enlace>

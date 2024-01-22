@@ -8,7 +8,7 @@ function InputRange({itemName}) {
   const [soundLoading, setSoundLoading] = useState(false);
   const [soundLoad, setSoundLoad] = useState(false);
   const [showMessage, setShowMessage] = useState(false);
-  const baseUrl = `http://127.0.0.1:8000/static/`;
+  const baseUrl = `https://sonoro-api.netlify.app/static/`;
 
   var sound;
 
