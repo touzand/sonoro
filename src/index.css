@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
 }
 
@@ -7,7 +9,8 @@ html {
   --third-color: #03001C;
 
   background-color: var(--primal-color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-weight:200;
   box-sizing: border-box;
 }
 

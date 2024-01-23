@@ -2,13 +2,13 @@ import { Howler } from "howler";
 import { useState } from "react";
 import { GlobalVolumeContainer } from "./style";
 
-const GlobalVolume = () => {
+const GlobalVolume = ({desktop}) => {
   const [volume, setVolume] = useState(1);
 
   Howler.volume(volume);
 
   return (
-<GlobalVolumeContainer>
+<GlobalVolumeContainer desktop={desktop}>
   <span>Master volume controler</span>
       <div className="input">
         <input

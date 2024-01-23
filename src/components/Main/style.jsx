@@ -1,4 +1,16 @@
 import styled from "styled-components";
+
+export const Header = styled.header`
+background-color:var(--second-color);
+padding:1rem;
+margin:.5rem;
+margin-bottom:2rem;
+border-radius:.5rem;
+
+*,p,span,svg,img{
+color:var(--primal-color) !important;
+}
+`
  
 export const ShowInput = styled.div`
 position:fixed;
@@ -132,7 +144,9 @@ export const TrackContainer = styled.div`
     margin: auto;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    //grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-template-columns: 200px 200px 200px;
+    gap:2rem;
   }
 `;
 
@@ -140,7 +154,7 @@ export const Logo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  //margin-top: 2rem;
 
   & div,
   span {
@@ -176,6 +190,9 @@ export const Logo = styled.div`
   }
 
   @media (min-width: 920px) {
+  
+    margin-top:2rem;
+
     .sub-header {
       flex-direction: row;
 
@@ -195,6 +212,5 @@ export const Logo = styled.div`
     }
   }
 `;
-
 
 
