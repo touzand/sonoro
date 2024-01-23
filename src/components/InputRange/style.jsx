@@ -1,5 +1,5 @@
 import '../../index.css';
-import styled, {css,keyframes} from 'styled-components';
+import styled, {css, keyframes} from 'styled-components';
 
 const Loading = keyframes`
 0%{transform:rotate(0deg)}
@@ -15,20 +15,26 @@ export const InputRangeContainer = styled.div`
   //gap: 1rem;
   margin-bottom: 2rem;
   //width:200px;
+  //
+
+  figure {
+    border-radius: 50%;
+    border: solid medium #3a5ba025;
+    transition: all 0.5s ease;
+    ${props =>
+      props.active &&
+      css`
+        border: solid medium var(--second-color);
+      `}
+
+    @media (min-width: 700px) {
+      border-bottom: solid medium transparent;
+    }
+  }
 
   img {
     pointer-events: none;
-    padding:2rem;
-    border-radius:50%;
-  border:solid medium #3a5ba025;
-    transition:all 0.5s ease;
-    ${props=>props.active && css`
-  border:solid medium var(--second-color);
-      `}
-
-@media (min-width: 700px) {
-  border-bottom:solid medium transparent;
-}
+    padding: 2rem;
   }
 
   .input-loading {
@@ -67,12 +73,12 @@ export const InputRangeContainer = styled.div`
     align-items: center;
     background-color: var(--primal-color);
 
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
 
-    span{
-      margin-bottom:1rem;
-      color:var(--second-color);
+    span {
+      margin-bottom: 1rem;
+      color: var(--second-color);
     }
   }
 
@@ -88,12 +94,12 @@ export const InputRangeContainer = styled.div`
     //var(--second-color) 90% 100%
     //);
     //background: linear-gradient(
-      //to right,
-      //var(--second-color) 5%,
-      //var(--primal-color) 5% 95%,
-      //var(--second-color) 95% 100%
+    //to right,
+    //var(--second-color) 5%,
+    //var(--primal-color) 5% 95%,
+    //var(--second-color) 95% 100%
     //);
-    
+
     background-color: var(--second-color);
     border: none;
     outline: none;
@@ -151,9 +157,9 @@ export const InputRangeContainer = styled.div`
       //width:70vw;
       width: 150px;
       //background: linear-gradient( to right,
-        //var(--second-color) 10%,
-        //var(--primal-color) 10% 90%,
-        //var(--second-color) 90% 100%
+      //var(--second-color) 10%,
+      //var(--primal-color) 10% 90%,
+      //var(--second-color) 90% 100%
       //);
     }
 

@@ -94,9 +94,11 @@ function InputRange({itemName, action}) {
       )}
 
       <InputRangeContainer onClick={handleShow} active={active}>
-        <img
-          src={`${baseUrl}icons/${itemName}.svg`}
-          className="desktop-icon-input"></img>
+        <figure>
+          <img
+            src={`${baseUrl}icons/${itemName}.svg`}
+            className="desktop-icon-input"></img>
+        </figure>
         {!isMobile && (
           <div className="input">
             <span>{itemName}</span>
