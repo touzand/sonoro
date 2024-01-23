@@ -1,4 +1,62 @@
 import styled from "styled-components";
+ 
+export const ShowInput = styled.div`
+position:fixed;
+bottom:1rem;
+left:1rem;
+right:1rem;
+
+    height: 40px;
+    padding: 6px 4px;
+    background: #fcfcfc;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    background-color: red;
+
+  input[type="range"] {
+    -webkit-appearance: none !important;
+    width: 100%;
+    //width: 200px;
+    height: 2px;
+    //background: linear-gradient(
+    //to right,
+    //var(--second-color) 10%,
+    //var(--primal-color) 10% 90%,
+    //var(--second-color) 90% 100%
+    //);
+    background-color:var(--second-color);
+    //background: linear-gradient(
+      //to right,
+      //var(--primal-color) 5%,
+      //var(--second-color) 5% 95%,
+      //var(--primal-color) 95% 100%
+    );
+    border: none;
+    outline: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 40px;
+    height: 40px;
+    background: var(--second-color);
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: var(--second-color);
+    cursor: grab;
+  }
+
+  input[type="range"]::-webkit-slider-thumb:active {
+    background: var(--second-color);
+    cursor: grab;
+    cursor: grabbing;
+  }
+
+`
 
 export const ToggleHandlerTheme = styled.button`
   border:none;
@@ -29,6 +87,7 @@ export const ToggleHandlerTheme = styled.button`
 
 export const MainBodyContainer = styled.div`
   display:flex;
+justify-content:center;
 
   .scroll-side-line{
     background-color:var(--second-color);
@@ -60,7 +119,8 @@ export const MainBodyContainer = styled.div`
 `;
 
 export const TrackContainer = styled.div`
-  display: flex;
+  display: grid;
+    grid-template-columns: 200px 200px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -135,3 +195,6 @@ export const Logo = styled.div`
     }
   }
 `;
+
+
+
