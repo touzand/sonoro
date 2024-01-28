@@ -1,24 +1,29 @@
-import React, { useEffect } from "react";
+import React, { useState,useEffect } from "react";
 import { AllowContainer } from "./style";
 
 function AllowSound() {
+  const [hide,setHide] = useState(false)
 const baseUrl = "https://sonoro-api.netlify.app/static/others/";
 
-  useEffect(() => {
-    setTimeout(() => {
-      document.querySelector(".allow").classList.add("enable");
-    }, 1000);
-  }, []);
+  //useEffect(() => {
+    //setTimeout(() => {
+      //document.querySelector(".allow").classList.add("enable");
+    //}, 1000);
+  //}, []);
 
   const handleAllow = (e) => {
-    e.target.classList.add("desable");
-    setTimeout(() => {
-      document.querySelector(".allow").style.display = "none";
-    }, 1500);
+
+    //e.target.classList.add("desable");
+    //setTimeout(() => {
+      //document.querySelector(".allow").style.display = "none";
+    //}, 1500);
   };
 
   return (
-    <AllowContainer className="allow" onClick={handleAllow}>
+    <AllowContainer
+      //className="allow"
+      hide={hide}
+    onClick={()=>setHide(true)}>
       <div>
         <h4>Best experienced with headphones!</h4>
       </div>

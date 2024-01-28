@@ -181,7 +181,7 @@ export const Logo = styled.div`
     span {
       text-align: center;
       color: #2d64e3;
-      font-weight: unset;
+      //font-weight: unset;
     }
   }
 
