@@ -5,7 +5,8 @@
 
 html {
   --primal-color: #f3f2ef;
-  --second-color: #3a5ba0;
+  /*--second-color: #3a5ba0;*/
+  --second-color: #2d64e3;
   --third-color: #03001C;
 
   background-color: var(--primal-color);
@@ -20,6 +21,10 @@ html::-webkit-scrollbar {
 
 body {
   margin: 0;
+}
+
+span{
+  font-weight:500;
 }
 
 @keyframes enable {

@@ -175,12 +175,12 @@ export const Logo = styled.div`
       align-items: center;
       justify-content: center;
       gap: 0.5rem;
-      color: #3a5ba0;
+      color: #2d64e3;
     }
 
     span {
       text-align: center;
-      color: #3a5ba0;
+      color: #2d64e3;
       font-weight: unset;
     }
   }
@@ -202,11 +202,12 @@ export const Logo = styled.div`
 
       span {
         text-align: left;
+        font-weight:bold;
       }
     }
 
     .mid-line {
-      background-color: #3a5ba0;
+      background-color: #2d64e3;
       width: 2px;
       height: 100px;
     }

@@ -17,8 +17,7 @@ export const GlobalVolumeContainer = styled.div`
   }
 
   span{
-    color:#3a5ba0;
-    font-weight: unset;
+    color:var(--second-color);
     margin-bottom:.5rem;
   }
 
