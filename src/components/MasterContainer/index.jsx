@@ -6,9 +6,6 @@ import Preloader from "../Preloader";
 const Container = () => {
   return (
     <div>
-      {
-      //<Preloader/>
-      }
       <AllowSound />
       <Main />
       <Footer />

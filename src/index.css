@@ -7,7 +7,7 @@ html {
   --primal-color: #f3f2ef;
   /*--second-color: #3a5ba0;*/
   --second-color: #2d64e3;
-  --third-color: #03001C;
+  --third-color: #141414;
 
   background-color: var(--primal-color);
   font-family: "Outfit", sans-serif;
