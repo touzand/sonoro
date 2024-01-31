@@ -147,7 +147,7 @@ export const TrackContainer = styled.div`
     //grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     grid-template-columns: 200px 200px 200px;
     gap:2rem;
-    margin-bottom:3rem;
+    margin:20vh;
   }
 `;
 

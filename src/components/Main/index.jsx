@@ -53,7 +53,9 @@ function Main() {
               }
             </div>
           </Logo>
-          <GlobalVolume />
+          {
+          //<GlobalVolume />
+          }
         </Header>
       )}
       {!isMobile && (
@@ -77,7 +79,9 @@ function Main() {
               }
             </div>
           </Logo>
-          <GlobalVolume desktop={true}/>
+            {
+          //<GlobalVolume desktop={true}/>
+            }
         </>
       )}
       <MainBodyContainer>
