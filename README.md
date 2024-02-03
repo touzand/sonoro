@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="http://imgfz.com/i/TtKsRgJ.png" alt="Responsively Logo" width="50">
+  <img src="https://github.com/touzand/sonoro/assets/91836977/4246c51b-964b-46a9-80ae-2e64619d524c" alt="Responsively Logo" width="50">
   <h1>Sonoro</h1>
    <img src="https://img.shields.io/badge/STATUS-COMPLETE-green">
    <img src="https://img.shields.io/badge/VERSION-2.2v-blue">
@@ -18,7 +18,7 @@ If you're anything like me, whether studying or programming, you always like bac
 
 Here where Sonoro comes in. You may open Sonoro, put on your headphones, and then immediately begin "configuring" your sound environment whatever you wish.
 
-![Sonoro](http://imgfz.com/i/AUXFNY7.png)
+![687474703a2f2f696d67667a2e636f6d2f692f415558464e59372e706e67](https://github.com/touzand/sonoro/assets/91836977/00b3bae5-f6fd-4a65-9da5-bc3191b9bc2a)
 
 >capture of the 1.3v
 
@@ -34,7 +34,7 @@ You may play with more than 30 different sounds in Sonoro. from wind, rain, and 
 
 When this idea occurred, the design of the page came to mind almost immediately. so, as soon as possible, i went to figma and started to solidify the initial concept of Sonoro :
 
-![Keyframes](http://imgfz.com/i/8iEZGeN.png)
+![687474703a2f2f696d67667a2e636f6d2f692f3869455a47654e2e706e67](https://github.com/touzand/sonoro/assets/91836977/c6aabbe1-2859-4d7c-9b2c-cdd4ab86bf59)
 
 after having more or less the initial base finished. and already having an idea of its structure and how it would work, I began to program it.
 
