@@ -1,15 +1,15 @@
-import styled, {css,keyframes} from 'styled-components';
+import styled, {css, keyframes} from 'styled-components';
 import '../../index.css';
 
 const Slide = keyframes`
 0%{left:0%;}
-80%{left:100%;}
+80%{left:110%;}
 100%{
-left:100%;
+left:110%;
   visibility:hidden;
   display:none;
 }
-`
+`;
 
 const SpanUp = keyframes`
 0%{opacity:0;top:1rem}
@@ -38,9 +38,13 @@ export const AllowContainer = styled.div`
   display: flex;
   flex-direction: column;
   cursor: pointer;
+    filter: drop-shadow(0px 0px 30px #14141450);
+  
 
-${props=>props.hide && css`
-  animation:${Slide} 2s ease both;
+${props =>
+  props.hide &&
+  css`
+    animation: ${Slide} 2s ease both;
   `}
 
 
