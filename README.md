@@ -20,8 +20,6 @@ Here where Sonoro comes in. You may open Sonoro, put on your headphones, and the
 
 ![687474703a2f2f696d67667a2e636f6d2f692f415558464e59372e706e67](https://github.com/touzand/sonoro/assets/91836977/00b3bae5-f6fd-4a65-9da5-bc3191b9bc2a)
 
->capture of the 1.3v
-
 You may play with more than 30 different sounds in Sonoro. from wind, rain, and thunder to a zombie apocalypse, a medieval conflict, or a nuclear alert... I know. I'll admit that while looking for sounds, I came across some unusual and fascinating ones that I wanted to include.
 
 ## Features
@@ -35,6 +33,7 @@ You may play with more than 30 different sounds in Sonoro. from wind, rain, and 
 When this idea occurred, the design of the page came to mind almost immediately. so, as soon as possible, i went to figma and started to solidify the initial concept of Sonoro :
 
 ![687474703a2f2f696d67667a2e636f6d2f692f3869455a47654e2e706e67](https://github.com/touzand/sonoro/assets/91836977/c6aabbe1-2859-4d7c-9b2c-cdd4ab86bf59)
+>capture of the 1.3v
 
 after having more or less the initial base finished. and already having an idea of its structure and how it would work, I began to program it.
 
