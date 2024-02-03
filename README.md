@@ -9,6 +9,9 @@
   <h6>A simple and easy to use application in which you create your own sound environment</h6>
 </div>
 
+- [Landingpage](http://github.com/touzand/sonoro-client.git)
+- [Server side](http://github.com/touzand/sonoro-api.git)
+
 ## initial concept
 
 If you're anything like me, whether studying or programming, you always like background noise. Sometimes we just want to listen to the rain, the sound of distant birds singing, the fire of a bonfire, or some lofi hip hop. and occasionally we want to hear particular noises, so we search for a video on YouTube about it; occasionally we find it, occasionally we don't.
