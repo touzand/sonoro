@@ -18,7 +18,7 @@ If you're anything like me, whether studying or programming, you always like bac
 
 Here where Sonoro comes in. You may open Sonoro, put on your headphones, and then immediately begin "configuring" your sound environment whatever you wish.
 
-![687474703a2f2f696d67667a2e636f6d2f692f415558464e59372e706e67](https://github.com/touzand/sonoro/assets/91836977/00b3bae5-f6fd-4a65-9da5-bc3191b9bc2a)
+![Frame 1](https://github.com/touzand/sonoro/assets/91836977/768b371b-f055-49dc-a9a0-655d76fe397c)
 
 You may play with more than 30 different sounds in Sonoro. from wind, rain, and thunder to a zombie apocalypse, a medieval conflict, or a nuclear alert... I know. I'll admit that while looking for sounds, I came across some unusual and fascinating ones that I wanted to include.
 
